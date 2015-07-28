@@ -1,0 +1,72 @@
+body {
+	background: url("../image/slothn.gif");
+	background-position: center;
+	font-size: 18px;
+	font-family: helvetica;
+	font-style: italic;
+
+}
+#section_1{
+	width: 200px;
+	height: 200px;
+	background:url("../image/filetemp.jpg");
+	background-position: center;
+	border-width: 10px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#section_2{
+	width: 200px;
+	height: 200px;
+	background:url("../image/filetemp.jpg");
+	background-position: center;
+	border-width: 10px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#section_3{
+	width: 200px;
+	height: 200px;
+	background:url("../image/filetemp.jpg");
+	background-position: center;
+	border-width: 10px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#logo {
+	margin-right:-250px;
+}
+#one{
+	height: 100px;
+	width: 100px;
+	background-color: green;
+}
+#one:hover{
+	background-color: red;
+}
+nav ul li{
+		display: inline-block;
+		font-size: 30px;
+		font-style: italic;
+		font-family: "Times New Roman", Georgia, Serif;
+		border: 10px;
+		border-color: black;
+	}
+	nav{background-color: black;}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	a{
+		color: red;
+	}
+@media screen and (max-width: 300px) {
+	body {
+		background-color: lightblue;
+		}
+	}
+	
