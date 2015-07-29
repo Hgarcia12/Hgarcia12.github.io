@@ -40,29 +40,32 @@ body {
 	margin-right:-250px;
 }
 #one{
-	height: 100px;
-	width: 100px;
+	height: 200px;
+	width: 200px;
+	background-image: url("../image/wolf.jpg");
 	background-color: green;
 }
-#one:hover{
-	background-color: red;
-}
+/*#one:hover{
+	background-image: url("../image/wolf.jpg");
+	height: 194px;
+	width: 259px;
+}*/
 nav ul li{
 		display: inline-block;
 		font-size: 30px;
 		font-style: italic;
-		font-family: "Times New Roman", Georgia, Serif;
+		font-family: "Times New Roman", Georgia;
 		border: 10px;
 		border-color: black;
 	}
-	nav{background-color: black;}
 	ul{
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
 	}
 	a{
-		color: red;
+		color: #AC00FF;
+		text-decoration:none;
 	}
 @media screen and (max-width: 300px) {
 	body {

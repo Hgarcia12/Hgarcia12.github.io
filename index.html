@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<nav> 
-	<ul>
-	<Li><a href="https://www.google.com">Google</a></Li>
-	<li><a href="contacts.html">Contacts</a></li>
-	<li><a href="http://www.w3schools.com/default.asp">Learn</a></li>
-	</ul>
-	</nav>
 	<title>Online Files</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" href="css/navigation-bar.css">
+		 <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+  		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  		<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+  		  <script>
+  $(function() {
+    $( "#one" ).draggable();
+  });
+  </script>
 </head>
 <body>
+
+<div id="navigation-bar">
+	<ul>
+		<a href="http://oddfuture.com/"><li>Odd Future</li></a>
+		<a href="https://www.google.com"><li>Google</li></a>
+		<a href="contacts.html"><li>Contacts</li></a>
+		<a href="http://www.w3schools.com/default.asp"><li>Learn</li></a>
+	</ul>
+</div>
 
 	<div id="section_1">This is a website where we share files and help each other.The community will be your teacher and help you develop  your code.</div>
 	<div id="section_2">You will be able to upload files to your own profile</div>
 	<div id="section_3">Expect this site to be up and running soon!</div>
-	<div id="one">Red.</div>
-<form>
+	<div id="one" class="ui-widget-content"></div>
+ <form>
 	<input type="email" placeholder="Your email">
 	<input type="submit">
 	
